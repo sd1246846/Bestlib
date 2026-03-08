@@ -1420,6 +1420,9 @@ end)
 
                 UICorner_2.Parent = sliderBtn
 
+sliderElement.Active = true
+    sliderBtn.Active = true
+        
                 UIListLayout.Parent = sliderBtn
                 UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
                 UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
